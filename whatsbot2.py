@@ -3,7 +3,7 @@ import pyautogui as py
 import pandas as pd
 
 
-tabela = pd.read_csv("botwhats/Pasta1.csv", sep=';')
+tabela = pd.read_csv("botwhats/Pasta1.csv", sep=';', encoding='latin-1')
 print(tabela.head())
 
 time.sleep(5)
